@@ -1,0 +1,557 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: DINPro-Black;
+    src: url(../fonts/DINPro-Black_0.otf);
+}
+@font-face {
+    font-family: DINPro-Bold;
+    src: url(../fonts/DINPro-Bold_0.otf);
+}
+@font-face {
+    font-family: DINPro-Medium;
+    src: url(../fonts/DINPro-Medium_0.otf);
+}
+@font-face {
+    font-family: DINPro-Regular;
+    src: url(../fonts/DINPro-Regular.otf);
+}
+
+h1{
+  line-height: 20px;
+}
+
+.g-pstyle0 {font-size:23px;line-height:29px;color:rgb(255,255,255);font-family: DINPro-Regular;}
+
+.g-pstyle1 {font-size:30px;font-weight:700;color:rgb(255,255,255);font-family: DINPro-Bold;}
+
+.g-pstyle2 {font-size:20px;color:rgb(255,255,255);font-family: DINPro-Regular;}
+
+.g-pstyle3 {font-size:45px;font-weight:700;color:rgb(255,255,255);font-family: DINPro-Bold;}
+
+.g-pstyle4 {font-size:20px;font-weight:700;text-align:center;font-family: DINPro-Black;}
+
+.g-pstyle5 {text-align:center;font-family: DINPro-Regular;}
+
+.g-pstyle6 {font-size:18px;color:rgb(255,255,255);font-family: DINPro-Regular;}
+
+.g-pstyle7 {font-size:23px;font-weight:700;color:#FDBB04;font-family: DINPro-Bold;}
+
+.g-pstyle8 {font-size:16px;color:rgb(255,255,255);font-family: DINPro-Regular;}
+
+.g-pstyle9 {font-family: DINPro-Bold;line-height: 5px;}
+
+.g-pstyle10 {font-family: DINPro-Regular;}
+
+.g-pstyle11 {font-size:23px;font-weight:700;font-family: DINPro-Bold;}
+
+.g-pstyle12 {font-size:13px;font-family: DINPro-Regular;}
+
+.rcorner {margin-top: 40px;border-radius: 13px;background: #FDBB04;font-family: DINPro-Bold;}
+
+.rcorner1 {margin-top: 30px;border-radius: 13px;background: #FFF;font-family: DINPro-Bold;}
+
+.rcorner2 {margin-top: 40px;border-radius: 13px;font-family: DINPro-Bold;}
+
+.btn-outline {background-color: transparent;transition: all .5s;border-color: #FDBB04;}
+
+.hr-yellow-line {background-image: url(../images/line.png);background-repeat: repeat-x;height: 50px;}
+
+.below-yellow-line {margin-top:120px;margin-bottom:200px;}
+
+.hr-white-line {width:63%;margin-left: 0px;border: none;height: 3px;background-color: #ffffff;}
+
+.hr-white-line1 {width:50%;margin-left: 0px;margin-top: 7%;border: none;height: 3px;background-color: #ffffff;}
+
+.hr-white-line2 {width:35%;margin-left: 0px;border: none;height: 3px;background-color: #ffffff;margin-top: 7%;}
+
+.hr-white-line3 {width:10%;margin-left: 0px;border: none;height: 3px;background-color: #ffffff;}
+
+.hr-gold-line {width:30%;margin-left: 0px;border: none;height: 5px;background-color: #FDBB04;margin-top: 0;}
+
+.img-sign {
+  margin-top: 15px;
+  height:60px;
+  width:50px;
+  display: inline-block;
+}
+
+.title {
+  font-family: DINPro-Bold;
+  font-weight: 600;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.subtitle {
+  font-family: DINPro-Regular;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.overlay {
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:30%;
+  left:10%;
+  width:40%;
+  text-align:left;
+}
+
+.board-container {
+}
+
+.board {
+  position:relative;
+  border-radius: 25px;
+  background-color:rgba(255,255,0,0.3);
+  width:50%;
+  left: 25%;
+  height: auto;
+  margin-top: 10%;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+.board1 {
+  position:relative;
+  border-radius: 25px;
+  width: 60%;
+  left: 20%;
+  height: auto;
+  margin-top: 22%;
+}
+
+.board2 {
+  position:relative;
+  border-radius: 25px;
+  background-color:rgba(255,255,0,0.3);
+  width: 75%;
+  left: 15%;
+  height: auto;
+  padding-left: 10px;
+  padding-bottom: 10%;
+}
+
+.faq-wrapper {
+  position:relative;
+  left: 15%;
+  height: auto;
+  margin-top: 10%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.time-line-title {
+  margin-top: 25px;
+  margin-left: 8%;
+  width:350px;
+}
+
+.gap-right {
+  margin-right: 100px;
+}
+
+.bod-background {
+  background-image: url("../images/blur.png");
+  padding: 0 !important;
+  margin: 0 auto !important;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.about-background {
+  background-image: url("../images/blur6.png");
+  padding: 0 !important;
+  margin: 0 auto !important;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.product-background {
+  background-image: url("../images/blur7.png");
+  padding: 0 !important;
+  margin: 0 auto !important;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.img-profile {
+  width :200px ;
+  height:236px;
+}
+
+.img-profile-media {
+  width :220px ;
+  height:240px;
+  margin-bottom:8%;
+  border: 3px solid #FDBB04;
+}
+
+.img-profile-gap {
+  margin-left: 8%;
+  margin-bottom:5%;
+  text-align: left;
+}
+.logo-gap {
+  padding-left: 7%;
+}
+.p-bod {
+  width: 85%;
+}
+
+.img-shadow {
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+
+/* CUSTOMIZE NAVIBAR
+-------------------------------------------------- */
+.navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size:23px;
+  color:rgb(255,255,255);
+  font-family: DINPro-Regular;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #FFFFFF;
+    border-bottom: #FFFFFF solid 1px;
+}
+
+.navbar-nav {
+  margin:100px 7%;
+}
+
+.navbar-nav-sm {
+}
+
+.navbar-nav-sm>li>a {
+  background-color: #FDBB04;
+  font-size:15px;
+  color:rgb(255,255,255);
+  font-family: DINPro-Regular;
+}
+
+.navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+  border: 0;
+}
+
+.glyphicon.glyphicon-search{
+    font-size: 35px;
+}
+
+.navbar-brand {
+  padding-left: 25%;
+  margin-top: 50px;
+  width:40%;
+}
+
+/* Icon 1 */
+#nav-icon1 {
+  width: 30px;
+  height: 3px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #FDBB04;
+  border-radius: 5px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 10px;
+}
+
+#nav-icon1 span:nth-child(3) {
+  top: 20px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 1024px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 1024px;
+}
+
+/* TIMELINE
+-------------------------------------------------- */
+.timeline-wrapper {
+  width: 70%;
+  margin-top:15%;
+  margin-bottom:15%;
+}
+
+.lens-profile-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0 80px;
+  border-bottom: 8px solid #FDBB04;
+  position: relative;
+}
+
+.circle1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 8px solid #fce8b0;
+  border-radius: 16px;
+  background: #fce8b0;
+  margin-top: -12px;
+}
+.circle2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 8px solid #ffc72d;
+  border-radius: 16px;
+  background: #ffc72d;
+  margin-top: -12px;
+}
+.circle3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 8px solid #ffc21c;
+  border-radius: 16px;
+  background: #ffc21c;
+  margin-top: -12px;
+}
+.circle4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 8px solid #FDBB04;
+  border-radius: 16px;
+  background: #FDBB04;
+  margin-top: -12px;
+}
+
+
+.timeline-textdown {
+    width: 200px;
+    height: 100px;
+    border-left: 1px solid #FDBB04;
+    margin-top: 30px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.timeline-textup {
+  width: 200px;
+  height: 100px;
+  border-left: 1px solid #FDBB04;
+  margin-top: -120px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.timeline-item {
+  padding: 3em 2em 2em;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  --border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-left: 8px solid #FDBB04;
+}
+
+
+.timeline-item::after {
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: 1em;
+  position: absolute;
+  left: -17px;
+  border-radius: 16px;
+  content: '';
+  border: 2px solid #FDBB04;
+  background: #FDBB04;
+}
+
+
+.timeline-item:last-child {
+  -o-border-image: linear-gradient(to bottom, #FDBB04 60%, transparent) 1 100%;
+     border-image: -webkit-linear-gradient(top, #FDBB04 60%, transparent) 1 100%;
+     border-image: linear-gradient(to bottom, #FDBB04 60%, transparent) 1 100%;
+}
+
+/* TIMELINE
+-------------------------------------------------- */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  h1{
+    line-height: 10px;
+  }
+
+  .title {
+    font-family: DINPro-Bold;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .subtitle {
+    font-family: DINPro-Regular;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .overlay {
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:20%;
+    left:10%;
+    width:90%;
+    text-align:left;
+  }
+
+.g-pstyle3 {font-weight:700;font-size:35px;color:rgb(255,255,255);font-family: DINPro-Bold}
+
+.g-pstyle6 {font-size:12px;color:rgb(255,255,255);font-family: DINPro-Regular}
+
+.g-pstyle7 {font-weight:700;font-size:18px;color:#FDBB04;font-family: DINPro-Bold}
+
+.g-pstyle8 {font-size:12px;color:rgb(255,255,255);font-family: DINPro-Regular}
+
+.time-line-title {margin-top: 25px;margin-left: 8%;width:200px};
+
+.below-yellow-line {margin-top:50px;margin-bottom:50px}
+
+.rcorner {margin-top: 20px;border-radius: 10px;background: #FDBB04;font-family: DINPro-Bold}
+
+.board-container {
+}
+
+.board {
+  position:relative;
+  border-radius: 0px;
+  background-color:transparent;
+  left: 10%;
+  width:80%;
+  height:auto;
+  padding-bottom: 0px;
+}
+
+.board1 {
+  position:relative;
+  border-radius: 0px;
+  background-color:transparent;
+  left: 15%;
+  width: 70%;
+  height:auto;
+  padding-bottom: 20px;
+}
+
+.hr-white-line1 {width:70%;margin-top: 30px;}
+
+.hr-white-line2 {width:55%;margin-top: 30px;}
+
+.navbar-default {
+	background-color:#fff;
+	background-image:none;
+	box-shadow:none;
+}
+
+.navbar-brand {
+  margin-top: 7px;
+  width:40%;
+  padding-left: 7%;
+}
+
+/* Bump up size of carousel content */
+.carousel-caption p {
+  font-size: 21px;
+  line-height: 1.4;
+  }
+}
