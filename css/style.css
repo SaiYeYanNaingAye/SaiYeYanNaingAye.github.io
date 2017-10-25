@@ -213,6 +213,23 @@ h1{
     margin-bottom:20px;
 }
 
+.carrot-play-store{
+	background-image:url(../images/googleplay.png);
+	background-repeat:no-repeat;
+	height:50px;
+	background-size:150px 50px;
+	background-position:right center;
+	cursor:pointer;
+}
+.carrot-app-store{
+	background-image:url(../images/appstore.png);
+	background-repeat:no-repeat;
+	height:50px;
+	background-size:150px 50px;
+	background-position:left center;
+	cursor:pointer;
+}
+
 
 /* CUSTOMIZE NAVIBAR
 -------------------------------------------------- */
