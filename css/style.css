@@ -34,7 +34,7 @@ h1{
 
 .g-pstyle5 {text-align:center;font-family: DINPro-Regular;}
 
-.g-pstyle6 {font-size:18px;color:rgb(255,255,255);font-family: DINPro-Regular;}
+.g-pstyle6 {font-size:18px;color:rgb(255,255,255);font-family: DINPro-Regular;font-weight:700}
 
 .g-pstyle7 {font-size:23px;font-weight:700;color:#FDBB04;font-family: DINPro-Bold;}
 
@@ -108,7 +108,7 @@ h1{
 .board {
   position:relative;
   border-radius: 25px;
-  background-color:rgba(255,255,0,0.3);
+  background-color:rgba(255,255,0,0.2);
   width:50%;
   left: 25%;
   height: auto;
@@ -213,22 +213,6 @@ h1{
     margin-bottom:20px;
 }
 
-.carrot-play-store{
-	background-image:url(../images/googleplay.png);
-	background-repeat:no-repeat;
-	height:50px;
-	background-size:150px 50px;
-	background-position:right center;
-	cursor:pointer;
-}
-.carrot-app-store{
-	background-image:url(../images/appstore.png);
-	background-repeat:no-repeat;
-	height:50px;
-	background-size:150px 50px;
-	background-position:left center;
-	cursor:pointer;
-}
 
 
 /* CUSTOMIZE NAVIBAR
@@ -370,7 +354,7 @@ h1{
   height: 1024px;
   background-color:#555;
 }
-.carousel img {
+.img-carousel{
   position: absolute;
   top: 0;
   left: 0;
