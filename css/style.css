@@ -227,7 +227,7 @@ h1{
 .navbar-default .navbar-nav>li>a {
   font-size:23px;
   color:rgb(255,255,255);
-  font-family: DINPro-Bold;
+  font-family: DINPro-Regular;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
