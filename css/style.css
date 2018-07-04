@@ -88,7 +88,8 @@ h1{
 .subtitle {
   font-family: DINPro-Regular;
   font-size: 20px;
-  color: #ffffff;
+  /*color: #ffffff;*/
+  color: #000000;
   text-align: left;
 }
 
@@ -226,13 +227,13 @@ h1{
 
 .navbar-default .navbar-nav>li>a {
   font-size:23px;
-  color:rgb(255,255,255);
+  color:rgb(105,105,105);
   font-family: DINPro-Regular;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-    color: #FFFFFF;
-    border-bottom: #FFFFFF solid 1px;
+    color: #696969;
+    border-bottom: #696969 solid 1px;
 }
 
 .navbar-nav {
@@ -477,14 +478,16 @@ h1{
     font-family: DINPro-Bold;
     font-weight: 600;
     font-size: 20px;
-    color: #ffffff;
+    /*color: #ffffff;*/
+	color: #000000;
     text-align: left;
   }
 
   .subtitle {
     font-family: DINPro-Regular;
     font-size: 16px;
-    color: #ffffff;
+    /*color: #ffffff;*/
+	color: #000000;
     text-align: left;
   }
 
