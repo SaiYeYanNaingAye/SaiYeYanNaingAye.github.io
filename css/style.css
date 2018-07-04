@@ -108,7 +108,7 @@ h1{
 .board {
   position:relative;
   border-radius: 25px;
-  background-color:rgba(255,255,0,0.2);
+  /*background-color:rgba(255,255,0,0.2);*/
   width:50%;
   left: 25%;
   height: auto;
