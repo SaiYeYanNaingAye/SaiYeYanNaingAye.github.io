@@ -173,6 +173,11 @@ h1{
   margin: 0 auto !important;
   background-size: cover;
   overflow: hidden;
+  background-repeat:no-repeat;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+ background-position:center;
 }
 
 .product-background {
@@ -363,6 +368,7 @@ h1{
   min-width: 100%;
 }
 
+
 /* TIMELINE
 -------------------------------------------------- */
 .timeline-wrapper {
@@ -478,8 +484,7 @@ h1{
     font-family: DINPro-Bold;
     font-weight: 600;
     font-size: 20px;
-    /*color: #ffffff;*/
-	color: #000000;
+    color: #ffffff;
     text-align: left;
   }
 
@@ -499,6 +504,7 @@ h1{
     left:10%;
     width:90%;
     text-align:left;
+	margin-top:50px;
   }
 
 .g-pstyle3 {font-weight:700;font-size:35px;color:rgb(255,255,255);font-family: DINPro-Bold}
