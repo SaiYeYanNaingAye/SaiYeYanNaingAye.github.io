@@ -18,6 +18,10 @@
     src: url(../fonts/DINPro-Regular.otf);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .g-pstyle0 {font-size:23px;line-height:29px;color:rgb(255,255,255);font-family: DINPro-Regular;}
 
 .g-pstyle1 {font-size:30px;font-weight:700;color:rgb(255,255,255);font-family: DINPro-Bold;}
