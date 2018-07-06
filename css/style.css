@@ -18,10 +18,6 @@
     src: url(../fonts/DINPro-Regular.otf);
 }
 
-h1{
-  line-height: 20px;
-}
-
 .g-pstyle0 {font-size:23px;line-height:29px;color:rgb(255,255,255);font-family: DINPro-Regular;}
 
 .g-pstyle1 {font-size:30px;font-weight:700;color:rgb(255,255,255);font-family: DINPro-Bold;}
@@ -48,33 +44,32 @@ h1{
 
 .g-pstyle12 {font-size:13px;font-family: DINPro-Regular;}
 
-.rcorner {margin-top: 40px;border-radius: 13px;background: #FDBB04;font-family: DINPro-Bold;}
+.wrapper {
 
-.rcorner1 {margin-top: 30px;border-radius: 13px;background: #FFF;font-family: DINPro-Bold;}
-
-.rcorner2 {margin-top: 40px;border-radius: 13px;font-family: DINPro-Bold;}
-
-.btn-outline {background-color: transparent;transition: all .5s;border-color: #FDBB04;}
+}
 
 .hr-yellow-line {background-image: url(../images/line.png);background-repeat: repeat-x;height: 50px;}
 
-.below-yellow-line {margin-top:120px;margin-bottom:200px;}
-
-.hr-white-line {width:63%;border: none;height: 3px;background-color: #ffffff;text-align:left; margin: 20px auto 0 0;}
-
-.hr-white-line1 {width:50%;border: none;height: 3px;background-color: #ffffff;text-align:left; margin: 30px auto 0 0;}
-
-.hr-white-line2 {width:35%;border: none;height: 3px;background-color: #ffffff;text-align:left; margin: 30px auto 0 0;}
-
-.hr-white-line3 {width:10%;border: none;height: 3px;background-color: #ffffff;text-align:left; margin: 20px auto 0 0;}
-
 .hr-gold-line {width:30%;border: none;height: 5px;background-color: #FDBB04;margin-top: 0;text-align:left; margin: 0 auto 20px 0;}
 
-.img-sign {
-  margin-top: 15px;
-  height:60px;
-  width:50px;
-  display: inline-block;
+.below-yellow-line {margin-top:120px;margin-bottom:200px;}
+
+.hr-white-line {width:25%;border: none;height: 3px;background-color: #ffffff;text-align:left; margin: 20px auto 0 0;}
+
+.hr-white-line1 {width:20%;border: none;height: 3px;background-color: #ffffff;text-align:left; margin: 30px auto 0 0;}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 100%;
+}
+
+.caption1 {
+    position: absolute;
+    top: 135%;
+    left: 10%;
+    width: 100%;
 }
 
 .title {
@@ -88,65 +83,8 @@ h1{
 .subtitle {
   font-family: DINPro-Regular;
   font-size: 20px;
-  /*color: #ffffff;*/
   color: #000000;
   text-align: left;
-}
-
-.overlay {
-  color:#fff;
-  position:absolute;
-  z-index:12;
-  top:30%;
-  left:12%;
-  width:40%;
-  text-align:left;
-}
-
-.board-container {
-}
-
-.board {
-  position:relative;
-  border-radius: 25px;
-  /*background-color:rgba(255,255,0,0.2);*/
-  width:50%;
-  left: 25%;
-  height: auto;
-  margin-top: 10%;
-  padding-top: 15px;
-  padding-left: 10px;
-  padding-bottom: 5%;
-  margin-bottom: 10%;
-}
-
-.board1 {
-  position:relative;
-  border-radius: 25px;
-  width: 60%;
-  left: 20%;
-  height: auto;
-  margin-top: 22%;
-}
-
-.board2 {
-  position:relative;
-  border-radius: 25px;
-  background-color:rgba(255,255,0,0.3);
-  width: 75%;
-  left: 15%;
-  height: auto;
-  padding-left: 10px;
-  padding-bottom: 10%;
-}
-
-.faq-wrapper {
-  position:relative;
-  left: 15%;
-  height: auto;
-  margin-top: 10%;
-  padding-top: 10px;
-  padding-left: 10px;
 }
 
 .time-line-title {
@@ -155,33 +93,12 @@ h1{
   width:350px;
 }
 
-.gap-right {
-  margin-right: 100px;
+.logo-gap {
+  padding-left: 7%;
 }
 
 .bod-background {
   background-image: url("../images/blur.png");
-  padding: 0 !important;
-  margin: 0 auto !important;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.about-background {
-  background-image: url("../images/blur6.png");
-  padding: 0 !important;
-  margin: 0 auto !important;
-  background-size: cover;
-  overflow: hidden;
-  background-repeat:no-repeat;
- -webkit-background-size:cover;
- -moz-background-size:cover;
- -o-background-size:cover;
- background-position:center;
-}
-
-.product-background {
-  background-image: url("../images/blur7.png");
   padding: 0 !important;
   margin: 0 auto !important;
   background-size: cover;
@@ -219,6 +136,14 @@ h1{
     margin-bottom:20px;
 }
 
+.gap-right {
+  margin-right: 100px;
+}
+
+.arrow {
+  font-size:48px;
+  color:#fff;
+}
 
 
 /* CUSTOMIZE NAVIBAR
@@ -343,31 +268,8 @@ h1{
   transform: rotate(-135deg);
 }
 
-
-/* CUSTOMIZE THE CAROUSEL
+/* CUSTOMIZE NAVIBAR
 -------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 1;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 1024px;
-  background-color:#555;
-}
-.img-carousel{
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 1024px;
-  min-width: 100%;
-}
-
 
 /* TIMELINE
 -------------------------------------------------- */
@@ -473,80 +375,10 @@ h1{
 /* TIMELINE
 -------------------------------------------------- */
 
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media screen and (max-width: 768px) {
-  h1{
-    line-height: 10px;
-  }
-
-  .title {
-    font-family: DINPro-Bold;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: left;
-  }
-
-  .subtitle {
-    font-family: DINPro-Regular;
-    font-size: 16px;
-    /*color: #ffffff;*/
-	color: #000000;
-    text-align: left;
-  }
-
-  .overlay {
-    color:#fff;
-    position:absolute;
-    z-index:12;
-    top:20%;
-    left:10%;
-    width:90%;
-    text-align:left;
-	margin-top:50px;
-  }
-
-.g-pstyle3 {font-weight:700;font-size:35px;color:rgb(255,255,255);font-family: DINPro-Bold}
-
-.g-pstyle6 {font-size:12px;color:rgb(255,255,255);font-family: DINPro-Regular}
-
-.g-pstyle7 {font-weight:700;font-size:18px;color:#FDBB04;font-family: DINPro-Bold}
-
-.g-pstyle8 {font-size:12px;color:rgb(255,255,255);font-family: DINPro-Regular}
-
-.time-line-title {margin-top: 25px;margin-left: 8%;width:200px};
-
-.below-yellow-line {margin-top:50px;margin-bottom:50px}
-
-.rcorner {margin-top: 20px;border-radius: 10px;background: #FDBB04;font-family: DINPro-Bold}
-
-.board-container {
-}
-
-.board {
-  position:relative;
-  border-radius: 0px;
-  background-color:transparent;
-  left: 10%;
-  width:80%;
-  height:auto;
-  padding-bottom: 0px;
-}
-
-.board1 {
-  position:relative;
-  border-radius: 0px;
-  background-color:transparent;
-  left: 15%;
-  width: 70%;
-  height:auto;
-  padding-bottom: 20px;
-}
-
-.hr-white-line1 {width:70%;margin-top: 30px;}
-
-.hr-white-line2 {width:55%;margin-top: 30px;}
 
 .navbar-default {
 	background-color:#fff;
@@ -560,9 +392,76 @@ h1{
   padding-left: 7%;
 }
 
-/* Bump up size of carousel content */
-.carousel-caption p {
-  font-size: 21px;
-  line-height: 1.4;
-  }
+body {
+  padding-top: 50px;
+}
+
+.caption {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 100%;
+}
+
+.caption1 {
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    width: 100%;
+}
+
+.title {
+  font-family: DINPro-Bold;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.subtitle {
+  font-family: DINPro-Regular;
+  font-size: 10px;
+  color: #000000;
+  text-align: left;
+  margin-top: 5px;
+ }
+
+ .time-line-title {
+   margin-top: 25px;
+   margin-left: 8%;
+   width:200px
+ }
+
+ .hr-white-line1 {
+   width:35%;
+   margin-top: 0;
+ }
+
+ .hr-white-line {
+   width:25%;
+   border: none;
+   height: 3px;
+   background-color: #ffffff;
+   margin-bottom: 0;
+   margin-top: 0;
+ }
+
+ .hr-yellow-line {
+   background-image: url(../images/line.png);
+   background-repeat: repeat-x;
+   height: 30px;}
+
+ .g-pstyle3 {
+   font-weight:700;
+   font-size:20px;
+   color:rgb(255,255,255);
+   font-family: DINPro-Bold
+ }
+
+ .arrow {
+   font-size:30px;
+   color:#fff;
+   margin-top: 0;
+ }
+
 }
