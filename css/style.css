@@ -71,7 +71,7 @@ body {
 
 .caption1 {
     position: absolute;
-    top: 135%;
+    top:800px;
     left: 10%;
     width: 100%;
 }
@@ -409,7 +409,7 @@ body {
 
 .caption1 {
     position: absolute;
-    top: 52%;
+    top: 230px;
     left: 10%;
     width: 100%;
 }
